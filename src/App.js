@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header>
-     <h1>Friends</h1>
+     <h1>Friends List</h1>
      </header>
      <Form friends={friends} inputText={inputText} setfriends={setfriends} setInputText={setInputText} />
      <FriendList friends={friends} setfriends={setfriends} />

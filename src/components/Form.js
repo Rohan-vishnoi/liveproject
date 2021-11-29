@@ -9,9 +9,7 @@ const Form = ({setInputText, setfriends , friends , inputText }) => {
         setfriends([...friends,{text : inputText , favourite: false, id: Math.random() * 1000}])
         setInputText("");
     }
-    const statusHandler = (e) => {
-        console.log(e.);
-    }
+
    
     return(
         <form>

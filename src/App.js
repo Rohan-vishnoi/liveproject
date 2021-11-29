@@ -11,7 +11,7 @@ function App() {
       <header>
      <h1>Friends List</h1>
      </header>
-     <Form friends={friends} inputText={inputText} setfriends={setfriends} setInputText={setInputText} status={status} setStatus={setStatus} />
+     <Form friends={friends} inputText={inputText} setfriends={setfriends} setInputText={setInputText}  />
      <FriendList friends={friends} setfriends={setfriends} />
     </div>
   );

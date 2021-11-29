@@ -6,7 +6,7 @@ const Form = ({setInputText, setfriends , friends , inputText }) => {
     }
     const submitfriendHandler = (e) => {
         e.preventDefault();
-        if(inputText != "")
+        if(inputText !== "")
         {
         setfriends([...friends,{text : inputText , favourite: false, id: Math.random() * 1000}])
         setInputText("");

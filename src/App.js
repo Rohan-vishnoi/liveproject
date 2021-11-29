@@ -7,6 +7,7 @@ function App() {
   const [inputText, setInputText] = useState("");
   const [friends, setfriends] = useState([]);
   const [status, setStatus] = useState('all');
+  const [] 
   return (
     <div className="App">
       <header>

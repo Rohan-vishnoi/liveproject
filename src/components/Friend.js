@@ -10,7 +10,7 @@ const Friend = ({text , temp, friends,setfriends}) => {
         setfriends(friends.map(item=> {
             if(item.id === temp.id)
             {
-                return {
+                return{
                     ...item , favourite : !item.favourite,
                 };
             }

@@ -17,7 +17,7 @@ const Form = ({setInputText, setfriends , friends , inputText }) => {
             <button onClick={submitfriendHandler} className="friend-button" type="submit">
                 <i className ="fas fa-plus-square"></i>
             </button>
-            <button onClick={statusHandler} type="submit" className="friend-button">
+            <button  type="submit" className="friend-button">
                 <i className="fas fa-sort"></i>
             </button>
           
